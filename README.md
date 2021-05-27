@@ -9,10 +9,10 @@ Thus, this repository contains a glimpse of the project that we tried our hands-
 -> AJAX
 -> Database by phyMyAdmin
 
-This project allowed me and my team to venture into the above-mentioned frameworks. The repository refers to 4 modules that we were successful in creating from scratch, which is: 1. Homepage
-2. LoginPage/SignUp Page 
-3. Shopping Cart Page 
-4. Checkout Page
+This project allowed me and my team to venture into the above-mentioned frameworks. The repository refers to 4 modules that we were successful in creating from scratch, which is:   1. Homepage
+  2. LoginPage/SignUp Page 
+  3. Shopping Cart Page 
+  4. Checkout Page
 
 You can download and run this project after creating the given database in phpMyAdmin, and then running it on Xampp. The project works perfectly fine except for the fact that you will not be able to watch the logo as the company holds the rights to the logo and since we were out of time in our Semester-V, we were not able to create a responsive website.
 
