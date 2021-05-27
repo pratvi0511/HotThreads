@@ -1,0 +1,36 @@
+.mb-5 a{
+    color:black;
+    padding-bottom:300px;
+}
+.form-check{
+    font-size: 15px;
+}
+.card-deck{
+    display: inline-block;
+    width:95%;
+}
+.card-footers{
+    background-color:rgba(187, 187, 187,0.70);
+    padding-left:3%;
+    padding-right: 3%;
+    padding-top:5%;
+    padding-bottom:5%;
+
+}
+.card-title{
+    color:darkgray;
+}
+.card-text{
+    color:#D89216;
+  }
+  .card-title{
+    color:#36454F;
+  }
+  .btn{
+      background-color: #281431;
+      border-color: #281431;
+  }
+  .btn:hover{
+      background-color:#2e1c36;
+      border-color:#2e1c36;
+  }
