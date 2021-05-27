@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="">
+    <link rel="canonical" href="">
+
+    <title>hot threads</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/f-style.css" rel="stylesheet">
+    <link href="fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="fontawesome/css/fontawesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        
+        .dropdown-item:hover {
+            color: #3989ca;
+            background-color: rgba(0, 0, 0, .85);
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+        
+        .checked {
+            color: orange;
+        }
+    </style>
+    <link rel="stylesheet" href="CSS/homePage.css">
+</head>
+
+<body>
+    <header>
+        <h1>HotThreads</h1>
+        <nav>
+            <div class="container d-flex flex-column flex-md-row justify-content-between">
+                <ul>
+                    <div class="dropdown" data-toggle="dropdown">
+                        <li><a href="#" type="button">Collections</a>
+                            <ul class="dropdown-menu" style="background-color: rgba(0, 0, 0, .85);">
+                                <a class="dropdown-item" href="#!" style="font-family: 'alfa slab one', cursive;
+                color: #FFFFFF;">Men</a>
+                                <a class="dropdown-item" href="#!" style="font-family: 'alfa slab one', cursive;
+                color: #ffffff">Women</a>
+                            </ul>
+
+                        </li>
+                        <li><a href="py-2 d-none d-md-inline-block">Review</a></li>
+                        <li><a href="py-2 d-none d-md-inline-block">Features</a></li>
+                </ul>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <ul>
+                        <li><a class="py-2 d-none d-md-inline-block" href="login.html">Sign In</a></li>
+                        <li><a class="py-2 d-none d-md-inline-block" href="#">Cart</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="sidebar-sticky pt-3">
+                    <!-- Section: Sidebar -->
+                    <section>
+
+                        <!-- Section: Filters -->
+                        <section>
+                            <!-- Section: Categories -->
+                            <section>
+
+                                <h5>Categories</h5>
+
+                                <div class="text-muted small text-uppercase mb-5">
+                                    <p class="mb-3"><a href="#!" class="card-link-secondary">Jeans</a></p>
+                                    <p class="mb-3"><a href="#!" class="card-link-secondary">Leggings</a></p>
+                                </div>
+
+                            </section>
+                            <!-- Section: Categories -->
+                            <section class="mb-4" style="color: rgba(0, 0, 0, .85);">
+
+                                <h6 class="font-weight-bold mb-3">Size</h6>
+
+                                <div class="form-check pl-0 mb-3">
+                                    <input type="checkbox" class="form-check-input filled-in" id="light-blue">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="form-check-label small text-uppercase card-link-secondary">Light Blue</label>
+                                </div>
+                                <div class="form-check pl-0 mb-3">
+                                    <input type="checkbox" class="form-check-input filled-in" id="Navy">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="form-check-label small text-uppercase card-link-secondary">Navy Blue</label>
+                                </div>
+                                <div class="form-check pl-0 mb-3">
+                                    <input type="checkbox" class="form-check-input filled-in" id="Dark-Blue">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="form-check-label small text-uppercase card-link-secondary">Dark Blue</label>
+                                </div>
+                                <div class="form-check pl-0 mb-3">
+                                    <input type="checkbox" class="form-check-input filled-in" id="Rose-smoke">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="form-check-label small text-uppercase card-link-secondary">Rose Smoke</label>
+                                </div>
+                                <div class="form-check pl-0 mb-3">
+                                    <input type="checkbox" class="form-check-input filled-in" id="Grey">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="form-check-label small text-uppercase card-link-secondary">Grey</label>
+                                </div>
+                                <div class="form-check pl-0 mb-3">
+                                    <input type="checkbox" class="form-check-input filled-in" id="Carolina Stone">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="form-check-label small text-uppercase card-link-secondary">Carolina Stone</label>
+                                </div>
+                            </section>
+                            <br>
+                            <!-- Section: Price -->
+                            <section class="mb-4">
+
+                                <h6 class="font-weight-bold mb-3">Price</h6>
+
+                                <div class="form-check pl-0 mb-3">
+                                    <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Under Rs.250</label>
+                                </div>
+                                <div class="form-check pl-0 mb-3">
+                                    <input type="radio" class="form-check-input" id="2550" name="materialExampleRadios">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="form-check-label small text-uppercase card-link-secondary" for="2550">Rs.250 to Rs.500</label>
+                                </div>
+                                <div class="form-check pl-0 mb-3">
+                                    <input type="radio" class="form-check-input" id="50100" name="materialExampleRadios">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="form-check-label small text-uppercase card-link-secondary" for="50100">Rs.500 to Rs.1000</label>
+                                </div>
+                                <div class="form-check pl-0 mb-3">
+                                    <input type="radio" class="form-check-input" id="100200" name="materialExampleRadios">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="form-check-label small text-uppercase card-link-secondary" for="100200">Rs.1000 to Rs.2000</label>
+                                </div>
+                                <div class="form-check pl-0 mb-3">
+                                    <input type="radio" class="form-check-input" id="200above" name="materialExampleRadios">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="form-check-label small text-uppercase card-link-secondary" for="200above">Rs.2000 & Above</label>
+                                </div>
+                            </section>
+                            <!-- Section: Price -->
+
+                            <!-- Section: Size -->
+                            <section class="mb-4" style="color: rgba(0, 0, 0, .85);">
+
+                                <h6 class="font-weight-bold mb-3">Size</h6>
+
+                                <div class="form-check pl-0 mb-3">
+                                    <input type="checkbox" class="form-check-input filled-in" id="34">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="form-check-label small text-uppercase card-link-secondary" for="34">30</label>
+                                </div>
+                                <div class="form-check pl-0 mb-3">
+                                    <input type="checkbox" class="form-check-input filled-in" id="36">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="form-check-label small text-uppercase card-link-secondary" for="36">32</label>
+                                </div>
+                                <div class="form-check pl-0 mb-3">
+                                    <input type="checkbox" class="form-check-input filled-in" id="38">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="form-check-label small text-uppercase card-link-secondary" for="38">34</label>
+                                </div>
+                                <div class="form-check pl-0 mb-3">
+                                    <input type="checkbox" class="form-check-input filled-in" id="40">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="form-check-label small text-uppercase card-link-secondary" for="40">36</label>
+                                </div>
+                            </section>
+                        </section>
+                    </section>
+                </div>
+            </nav>
+            <!--Section: Block Content-->
+
+            <div class="container">
+                <section>
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="view overlay rounded z-depth-1 gallery-item">
+                                <img src="../images/product.172.jpg" class="img-fluid">
+                                <div class="mask rgba-white-slight"></div>
+                            </div>
+                        </div><br>
+                        <div class="flex-column">
+                            <div class="col-4">
+                                <a href="images/product.1-172.jpg">
+                                    <div class="view overlay rounded z-depth-1 gallery-item">
+                                        <img src="../images/product.1-172.jpg" class="img-fluid">
+                                        <div class="mask rgba-white-slight"></div>
+                                    </div>
+                                </a>
+                            </div><br>
+                            <div class="col-4">
+                                <a href="images/product.1-272.jpg">
+                                    <div class="view overlay rounded z-depth-1 gallery-item">
+                                        <img src="../images/product.1-272.jpg" class="img-fluid">
+                                        <div class="mask rgba-white-slight"></div>
+                                    </div>
+                                </a>
+                            </div><br>
+                            <div class="col-4">
+                                <a href="images/product.1-372.jpg">
+                                    <div class="view overlay rounded z-depth-1 gallery-item">
+                                        <img src="../images/product.1-372.jpg" class="img-fluid">
+                                        <div class="mask rgba-white-slight"></div>
+                                    </div>
+                                </a>
+                            </div><br>
+                        </div>
+                    </div>
+
+                </section>
+                <!--Section: Block Content-->
+                <div class="col-12">
+                    <h5>Hot Threads Women's Full Length High Waist Streachable Jeggings</h5>
+                    <p class="mb-2 text-muted text-uppercase small">Jeggings</p>
+                    <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+                    <span class="heading">User Rating:</span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <p><span class="mr-1"><strong> Rs.1299</strong></span></p>
+                    <h1>Product description</h1>
+                    <p class="pt-1">
+                        Shop from a wide range of jeans from Hot Threads. Perfect for your everyday use, you could pair it with a stylish t-shirt or shirt complete the look.Made From Specially Woven Fabric For Comfort Fit Disperse Dyed Soft Finish Jeggings :: 75% Cotton With
+                        22% Filament And 3% Spandex Material.</p>
+                    <ul>
+                        <li>Care Instructions: Machine Wash</li>
+                        <li>Fit Type: Regular</li>
+                        <li>Colour: Carolina Stone Product Type: Jeggings</li>
+                        <li>Fit Type: Regular Material: 75% Cotton, 23% Polyster & 2% Spandex</li>
+                        <li>Clousure: Buttone And Zip</li>
+                        <li>Occasion: Casual and Collage Wear</li>
+                        <li>Comfort To Wear With Body Hugging Fit, Making You Look Smart & Slim</li>
+                    </ul>
+                    <div class="table-responsive">
+                        <table class="table-borderless" style="font-size:larger;">
+                            <tbody>
+                                <tr>
+                                    <th class="pl-0 w-25" scope="row"><strong>Package Dimensions :</strong></th>
+                                    <td>15 x 10 x 2 cm; 300 Grams</td>
+                                </tr>
+                                <tr>
+                                    <th class="pl-0 w-25" scope="row"><strong>Date First Available :</strong></th>
+                                    <td> 4 November 2020</td>
+                                </tr>
+                                <tr>
+                                    <th class="pl-0 w-25" scope="row"><strong>Manufacturer :</strong></th>
+                                    <td>AADINATH TEXTILE,Ahmedabad</td>
+                                </tr>
+                                <tr>
+                                    <th class="pl-0 w-25" scope="row"><strong>ASIN : </strong></th>
+                                    <td>B08N69RK9J</td>
+                                </tr>
+                                <tr>
+                                    <th class="pl-0 w-25" scope="row"><strong>Item part number :</strong></th>
+                                    <td>HT_WJGS1_L2001E1</td>
+                                </tr>
+                                <tr>
+                                    <th class="pl-0 w-25" scope="row"><strong>Department :</strong></th>
+                                    <td>Women</td>
+                                </tr>
+                                <tr>
+                                    <th class="pl-0 w-25" scope="row"><strong>Manufacturer :</strong></th>
+                                    <td>AADINATH TEXTILE,Ahmedabad</td>
+                                </tr>
+                                <tr>
+                                    <th class="pl-0 w-25" scope="row"><strong>Item Weight : </strong></th>
+                                    <td>300 g</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-responsive mb-2">
+                        <table class="table table-sm table-borderless">
+                            <tbody>
+                                <tr>
+                                    <td class="pl-0 pb-0 w-25">Quantity</td>
+                                    <td class="pb-0">Select size</td>
+                                </tr>
+                                <tr>
+                                    <td class="pl-0">
+                                        <div class="def-number-input number-input safari_only mb-0 w-100">
+                                            <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
+                                            <input class="quantity" min="0" name="quantity" value="1" type="number">
+                                            <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="mt-1">
+                                            <div class="form-check form-check-inline pl-0">
+                                                <input type="radio" class="form-check-input" id="30" name="materialExampleRadios" checked>
+                                                <label class="form-check-label small text-uppercase card-link-secondary" for="30">30</label>
+                                            </div>
+                                            <div class="form-check form-check-inline pl-0">
+                                                <input type="radio" class="form-check-input" id="32" name="materialExampleRadios">
+                                                <label class="form-check-label small text-uppercase card-link-secondary" for="32">32</label>
+                                            </div>
+                                            <div class="form-check form-check-inline pl-0">
+                                                <input type="radio" class="form-check-input" id="34" name="materialExampleRadios">
+                                                <label class="form-check-label small text-uppercase card-link-secondary" for="34">34</label>
+                                            </div>
+                                            <div class="form-check form-check-inline pl-0">
+                                                <input type="radio" class="form-check-input" id="36" name="materialExampleRadios">
+                                                <label class="form-check-label small text-uppercase card-link-secondary" for="36">36</label>
+                                            </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                        <button type="button" class="btn btn-primary btn-md mr-1 mb-2">Buy now</button>
+                        <button type="button" class="btn btn-light btn-md mr-1 mb-2"><i
+            class="fas fa-shopping-cart pr-2"></i>Add to cart</button><br>&nbsp;
+                        <div class="classic-tabs border rounded px-4 ">
+                            <h2 style="font-size:large;">Q&A:</h2>
+                            <div>
+                                <!-- Your review -->
+                                <div class="md-form md-outline">
+                                    <textarea id="form76" class="md-textarea form-control pr-6" rows="4"></textarea>
+                                    <label for="form76">Write Your Question</label>
+                                </div>
+                                <!-- Name >
+                <div class="md-form md-outline">
+                  <input type="text" id="form75" class="form-control pr-6">
+                  <label for="form75">Name</label>
+                </div>
+                < Email >
+                <div class="md-form md-outline">
+                  <input type="email" id="form77" class="form-control pr-6">
+                  <label for="form77">Email</label>
+                </div-->
+                                <div class="text-right pb-2">
+                                    <button type="button" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </div><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+<!--Section: Block Content-->
+<footer>
+    <div class="up-section">
+        <ul>
+            <h1>Top Categories</h1>
+            <li><a href="#">Jeans</a></li>
+            <li><a href="#">Top</a></li>
+        </ul>
+        <ul>
+            <h1>Information & Customer Service</h1>
+            <li><a href="About us.html">About us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="Returns & Cancellation.html">Returns & Cancellation</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+        <ul>
+            <h1>My Account</h1>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Order History</a></li>
+            <li><a href="#">Track Order</a></li>
+            <li><a href="#">Wish List</a></li>
+        </ul>
+        <ul>
+            <h1>Contact Us</h1>
+
+            <li>
+                <p>HotThreads@gmail.com</p>
+            </li>
+            <li>
+                <p>+91 6354339383</p>
+            </li>
+        </ul>
+
+        <div class="follow">
+            <h1>Follow Us</h1>
+            <div class="follow-icon">
+                <a href="https://www.facebook.com/Hot-Threads-113552533795196/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/invites/contact/?i=1llwsis1okxaz&utm_content=kb01cdy" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/c/916354339383"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+    <p class="copyright">Going to Internet copyright 2009</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script>
+    window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')
+</script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/product.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+
+</html>
